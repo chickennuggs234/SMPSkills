@@ -1,0 +1,13 @@
+name: SMPSkills
+version: 1.0.0
+main: com.example.skills.SkillsPlugin
+api-version: '1.20'
+description: One-time skill selection (Ultra Miner, Super PVPer, Driller).
+commands:
+  skill:
+    description: Open the skill selection menu or view your skill.
+    usage: /skill [info <player> | reset <player>]
+permissions:
+  skills.admin:
+    description: Allows viewing and resetting player skills.
+    default: op
